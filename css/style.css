@@ -1,0 +1,77 @@
+body
+{
+	font-family: serif;
+	color: #FFF;
+	font-family: monospace;
+}
+
+a
+{
+	text-decoration: none !important;
+}
+
+.navbar
+{
+	background-color: #58006E !important;
+	position: 
+}
+
+.wholebody
+{
+	background-color: #58006E;
+	padding: 0px;
+	margin: 0px; 
+}
+
+.nav-link
+{
+	margin-right: 20px;
+	color: #fff !important;
+}
+
+.firstView
+{
+	width: 100%;
+	height: 100vh;
+	margin:  0; 
+	padding: 0;
+
+}
+
+.firstViewContainer
+{
+	background: 	rgb(75,0,130);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.khaltiTitle
+{
+	font-size: 30px;
+}
+.khaltiInfo
+{
+	margin-top: 40px;
+	font-size: 18px;
+	color: #bfbfbf;
+}
+
+.getKhalti
+{
+	margin-top: 40px;
+	font-size: 20px;
+	color: #bfbfbf;
+
+}
+
+legend
+{
+	margin: 0px;
+}
+
+.signUpForm
+{
+	border-radius: 25px;
+}
