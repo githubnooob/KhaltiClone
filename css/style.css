@@ -5,20 +5,23 @@ body
 	font-family: monospace;
 }
 
+
+
 a
 {
 	text-decoration: none !important;
 }
 
+
 .navbar
 {
 	background-color: #58006E !important;
-	position: 
+	
 }
 
 .wholebody
 {
-	background-color: #58006E;
+	background-color: #58006E ;
 	padding: 0px;
 	margin: 0px; 
 }
@@ -87,3 +90,76 @@ legend
 {
 	border: none;
 }
+
+.secondView
+{
+	background-color: #FFF;
+	color: #000;
+}
+
+.working
+{
+	margin-top: 40px;
+	color: #58006E ;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+
+.separator
+{
+	text-align: center;
+}
+
+
+.circle1
+{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: #58006E;
+	position: relative;
+}
+
+.line1
+{
+	width: 5px;
+	height: 300px;
+	background: #bfbfbf;
+	position: absolute;
+	padding: 0;
+	margin-top: 40px;
+}
+
+.circle2
+{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: #58006E;
+	position: absolute;
+	margin-top: 300px;
+}
+
+.line2
+{
+	width: 5px;
+	height: 300px;
+	background: #bfbfbf;
+	padding: 0;
+	position: absolute;
+	margin-top: 340px;
+}
+
+
+.circle3
+{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: #58006E;
+	position: absolute;
+	margin-top: 640px;
+}
+

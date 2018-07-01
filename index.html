@@ -5,12 +5,13 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="icon" href="images/favicon.png"></link>
+	<link rel="stylesheet" href="css/ticker.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
 <div class="container-fluid wholebody">
-	<div class="container">
+	<div class="container navbarContainer">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%;">
 		  <!-- Image and text -->
 			<a class="navbar-brand" href="#">
@@ -43,140 +44,496 @@
 		  </div>
 		</nav>
 	</div>
+</div>	
+
 	<div style="height: 1px; width: 100%; background-color: #FFF;">
 		
 	</div>
-	<div class="container-fluid firstView">
-		<div class="row firstViewContainer justify-content-center">
-			<div class="col-sm-6 align-self-center" >
-				<h6 class="khaltiTitle">Digital Wallet & Payment Gateway</h6>
-				<p class="khaltiInfo">
-					Khalti is a digital wallet for instant, secure and hassle-free online payments in Nepal. Recharge your mobiles, pay bills, book tickets wherever you are and whenever you want.
-				</p>
-				<p class="getKhalti">
-					Get <span style="color: #FFF; font-size: 24px;"> Khalti</span> On Your Mobile
-				</p>
-				<div class="row" style="margin:0px; padding: 0px; " >
-					<img style="height: 60px;" src="images/getonGooglePlay.png">
-					<img style="height: 60px; margin-left: 5px;" src="images/getonAppStore.png">
-				</div>
-			</div>	
+	<div class="container-fluid" style="padding: 0; margin: 0;">
+	
+		<div class="container-fluid firstView">
+			<div class="row firstViewContainer justify-content-center">
+				<div class="col-sm-6 align-self-center" >
+					<div class="container-fluid">
+						
+						<h6 class="khaltiTitle">Digital Wallet & Payment Gateway</h6>
+						<p class="khaltiInfo">
+							Khalti is a digital wallet for instant, secure and hassle-free online payments in Nepal. Recharge your mobiles, pay bills, book tickets wherever you are and whenever you want.
+						</p>
+						<p class="getKhalti">
+							Get <span style="color: #FFF; font-size: 24px;"> Khalti</span> On Your Mobile
+						</p>
+						<div class="row"  >
+							<div class="col-sm" style=" margin:0px; ">
+								<img class="img-responsive" style="height: 60px;" src="images/getonGooglePlay.png">
+								<img class="img-responsive" style="height: 60px;" src="images/getonAppStore.png">			
+							</div>
+		
+						</div>
+					</div>
+				</div>	
 
-			<div class="col-sm-3 align-self-center" style="background: #fff; border-radius: 25px;"  >
-	            <form  accept-charset="utf-8"  role="form" >   
-	            	<legend>Sign Up</legend>
-                    <h4 style="color: #000; text-align: center;"> Sign Up For Free </h4>
+				<div class="col-sm-3 align-self-center" style="background: #fff; border-radius: 25px;"  >
+					<div class="container-fluid">	
+			            <form  accept-charset="utf-8"  role="form" >   
+			            	<legend>Sign Up</legend>
+		                    <h4 style="color: #000; text-align: center;"> Sign Up For Free </h4>
+				            
+				            <div class="input-group inputFormItems">
+							  <div class="input-group-prepend">
+							    <span style="background: #FFF; border: none;"  class="input-group-text" id="basic-addon1">
+							    	<i class="fa fa-user" ></i>
+							    </span>
+							  </div>
+		                   	 <input type="text" name="email" " class="form-control input-lg as-feedback" placeholder="Full Name" />
+							</div>
+
+				            <div class="input-group inputFormItems">
+							  <div class="input-group-prepend">
+							    <span style="background: #FFF; border: none;"  class="input-group-text" id="basic-addon1">
+									<i class="fa fa-phone"></i>
+							    </span>
+							  </div>
+		                    <input type="text" name="password"  class="form-control input-lg" placeholder="Mobile"/>
+							</div>
+
+				            <div class="input-group inputFormItems">
+							  <div class="input-group-prepend">
+							    <span style="background: #FFF; border: none;" class="input-group-text" id="basic-addon1">
+									<i class="fa fa-at"></i>
+							    </span>
+							  </div>
+		                     <input type="email" name="confirm_password"  class="form-control input-lg" placeholder="Email"  />
+							</div>
+
+				            <div class="input-group inputFormItems">
+							  <div class="input-group-prepend">
+							    <span style="background: #FFF; border: none;"  class="input-group-text" id="basic-addon1">
+									<i class="fa fa-lock"></i>
+							    </span>
+							  </div>
+		                     <input type="password" name="password" class="form-control input-lg" placeholder="Password"  />
+							</div>
+
+				            <div class="input-group inputFormItems">
+							  <div class="input-group-prepend">
+							    <span  style="background: #FFF; border: none;"  class="input-group-text" id="basic-addon1">
+									<i class="fa fa-lock"></i>
+							    </span>
+							  </div>
+		                     <input type="password" name="confirm_password" class="form-control input-lg" placeholder="Confirm Password"  />
+							</div>
+
+		                     <div class="form-group form-check" style="color: #000; margin-top: 10px;">
+							    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		                    	I agree to <span> <a href="">terms and conditions</a> </span> 
+							 </div>
 		            
-		            <div class="input-group inputFormItems">
-					  <div class="input-group-prepend">
-					    <span style="background: #FFF; border: none;"  class="input-group-text" id="basic-addon1">
-					    	<i class="fa fa-user" ></i>
-					    </span>
-					  </div>
-                   	 <input type="text" name="email" " class="form-control input-lg as-feedback" placeholder="Full Name" />
-					</div>
+		                	<button type="button" class="btn btn-primary btn-block" style="background: #58006E; margin-bottom: 10px;" >
+		                		Join
+		                	</button>
+		        		 </form>  
+	        		 </div>   
+	            </div>
+			</div>
+		  </div>
 
-		            <div class="input-group inputFormItems">
-					  <div class="input-group-prepend">
-					    <span style="background: #FFF; border: none;"  class="input-group-text" id="basic-addon1">
-							<i class="fa fa-phone"></i>
-					    </span>
-					  </div>
-                    <input type="text" name="password"  class="form-control input-lg" placeholder="Mobile"/>
-					</div>
+			  <div class="container-fluid secondView">
+			  	<div class="container">
+					<div class="working">
+				  		<h3 >How Khalti Works?</h3>
+				  		<div class="row justify-content-center" style="margin-top: 40px;">
+							<div style="height: 2px; width: 10%; background-color: #FFB752;">
+								
+							</div>	  			
+				  		</div>
 
-		            <div class="input-group inputFormItems">
-					  <div class="input-group-prepend">
-					    <span style="background: #FFF; border: none;" class="input-group-text" id="basic-addon1">
-							<i class="fa fa-at"></i>
-					    </span>
-					  </div>
-                     <input type="email" name="confirm_password"  class="form-control input-lg" placeholder="Email"  />
-					</div>
+				  		<h6 style=" color:#3e3e3e; margin-top: 20px;">Be a part of Khalti in 3 simple steps. Let's get started!</h6>
+				  	</div>	  		
+			  	</div>
 
-		            <div class="input-group inputFormItems">
-					  <div class="input-group-prepend">
-					    <span style="background: #FFF; border: none;"  class="input-group-text" id="basic-addon1">
-							<i class="fa fa-lock"></i>
-					    </span>
-					  </div>
-                     <input type="password" name="password" class="form-control input-lg" placeholder="Password"  />
-					</div>
+			  	<div class="container">
+			  		<div class="row justify-content-center">
+				  		<div class="col-sm-4 leftColumn">
+				  			<img src="images/step1.png" class="img-responsive" style="height: 200px;">
 
-		            <div class="input-group inputFormItems">
-					  <div class="input-group-prepend">
-					    <span  style="background: #FFF; border: none;"  class="input-group-text" id="basic-addon1">
-							<i class="fa fa-lock"></i>
-					    </span>
-					  </div>
-                     <input type="password" name="confirm_password" class="form-control input-lg" placeholder="Confirm Password"  />
-					</div>
+				  			<div class="container-fluid" style="margin: 0; padding: 0; margin-top: 80px;">	  
+					  			<h1 style="color: #58006E; text-align: center; " >Step 2 </h1>
+					  			<h5 style="color: #A7E8E6; margin-top: 40px; text-align: right; ">Load Fund</h5>
+					  			<p>
+									Load money into your wallet via e-banking, mobile banking, cards, kiosks or request funds from your Khalti friends					  			
+								</p>
+							</div>
+
+							<div style="margin-top: 80px;">
+								<img src="images/khalti3.jpg" class="img-responsive" style="height: 200px;">							
+							</div>
 
 
+				  		</div>
 
+				  		<div class=" col-sm-1 separator" >
+				  			<div class="row justify-content-center">
+								<div class="circle1">
+			  					</div>
 
+			  					<div class="line1" >
+			  					</div>				  				
+				  			</div>
+				  			<div class="row justify-content-center">
+								<div class="circle2">
+			  					</div>
 
+			  					<div class="line2" >
+			  					</div>				  				
+				  			</div>
+				  			<div class="row justify-content-center">
+								<div class="circle3">
+			  					</div>
+			  				
+				  			</div>
+ 	  					
 
-                     <div class="form-group form-check" style="color: #000; margin-top: 10px;">
-					    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    	I agree to <span> <a href="">terms and conditions</a> </span> 
-					 </div>
-            
-                	<button type="button" class="btn btn-primary btn-block" style="background: #58006E; margin-bottom: 10px;" >
-                		Join
-                	</button>
+			  			</div>
 
+			  			<div class="col-sm-4 rightColumn" >
+			  				<div>	  
+					  			<h1 style="color: #58006E; text-align: center; " >Step 1 </h1>
+					  			<h5 style="color: #A7E8E6; margin-top: 40px;">Create an account</h5>
+					  			<p>
+					  				Sign up to create Khalti account verify it & login to enjoy the new exciting way of payment
+					  			</p>
+							</div>
 
-<div class="form-group ">
-  <label class="control-label " for="email">
-   Email
-  </label>
- 
- </div>
+							<div style="margin-top: 80px;">
+								<img src="images/khalti2.jpg" class="img-responsive" style="height: 200px;">							
+							</div>
 
+				  			<div class="container-fluid" style="margin: 0; padding: 0; margin-top: 80px;">	  
+					  			<h1 style="color: #58006E; text-align: center; " >Step 3 </h1>
+					  			<h5 style="color: #A7E8E6; margin-top: 40px; text-align: left; ">Go!</h5>
+					  			<p>
+								You are now all set to make your desired payments, experience better offers through Khalti
+								</p>
+							</div>
 
+			  			</div>
 
+			  		</div>
 
+			  	</div>
+			  	
+			  	<div class="container" style="margin-bottom: 200px;">
+					<div class="BePartOfKhalti" style="text-align: center; margin-top: 50px;">
+				  		<p>Be a part of Khalti in 3 simple steps. Let's get started!</p>
+				  		<button class="btn btn-primary" style="background: #64CCC0;">Get Started Now</button>
+				  	</div>	  		
+			  	</div>
 
-
-
-
-
-
-
-                </form>     
-            </div>
-          
-             
-                   
 			</div>
 
+			<div class="container-fluid thirdView" style="background: #FBFBFB;" >
+				<h2 style="text-align: center; color: #58006E;"> Our Services </h2>
+				<div class="row justify-content-center" style="margin-top: 40px;">
+					<div style="height: 2px; width: 10%; background-color: #FFB752;">
+						
+					</div>	  			
+		  		</div>
+
+		  		<p style="text-align: center; color: #000; margin-top: 20px;">Now just log-on to Khalti and get started to use our services instantly 
+		  		</p>
+
+		  		<div class="container" style="padding: 0; ">
+		  			<div class="row justify-content-center">
+		  				<div class="col-sm-4  ">
+							<div class="row justify-content-end services1" style="margin-top: 100px;">
+								<div class="col-sm">
+									<h6 style="color: #58006E; text-align: right;">ELECTRICITY BILL</h6>
+									<p style="color: #000; text-align: right;">
+										Pay your electricity bills on the go without having to reach NEA counters using Khalti
+									</p>							
+								</div>
+								<img src="images/1.png" class="img-responsive">		  	
+							</div>
+
+			  				<div class="row justify-content-end services1" style="margin-top: 100px;">
+								<div class="col-sm">
+									<h6 style="color: #58006E; text-align: right;">MOBILE BALANCE TOPUP</h6>
+									<p style="color: #000; text-align: right;">
+										Recharge/Topup your prepaid or postpaid mobiles easily with Khalti
+									</p>								
+								</div>
+								<img src="images/2.png" class="img-responsive">		  	
+							</div>
+
+							<div class="row justify-content-end services1" style="margin-top: 100px;">
+								<div class="col-sm">
+									<h6 style="color: #58006E; text-align: right;">AIRLINE TICKETING</h6>
+									<p style="color: #000; text-align: right;">
+										Book your air tickets online in a jiffy with Khalti.</p>				
+								</div>
+								<img src="images/3.png" class="img-responsive">		  	
+							</div>	
+		  				</div>
+		  			
+
+		  				<div class="col-sm-4">
+		  					 <div class="khaltiMobile">
+		  						<img src="images/khaltiMobile.jpg" class="img-responsive">
+		  					</div>					
+		  				</div>
+		  				<div class="col-sm-4">
+		  					<div class="row justify-content-start services1" style="margin-top: 100px;">
+								<img src="images/4.png" class="img-responsive">		  		
+								<div class="col-sm">
+									<h6 style="color: #58006E; text-align: left;">DTH AND ISP</h6>
+									<p style="color: #000; text-align: left;">
+										Make quick and easy payments for DTH and ISP services instantly using Khalti.
+									</p>							
+								</div>
+							</div>
+
+			  				<div class="row justify-content-start services1" style="margin-top: 100px;">
+			 					<img src="images/5.png" class="img-responsive">		  	 					
+								<div class="col-sm">
+									<h6 style="color: #58006E; text-align: left;">MOVIE TICKETING</h6>
+									<p style="color: #000; text-align: left;">
+										Book your favorite movies in just few clicks without staying in long queues							
+									</p>								
+								</div>
+							</div>
+
+							<div class="row justify-content-start services1" style="margin-top: 100px;">
+								<img src="images/6.png" class="img-responsive">		  									
+								<div class="col-sm">
+									<h6 style="color: #58006E; text-align: left;">WATER BILL</h6>
+									<p style="color: #000; text-align: left;">
+										Make quick and easy payments for Khaanepani using Khalti
+									</p>				
+								</div>
+							</div>					
+		  				</div>		  				
+		  				
+		  			</div>
+		  		</div>
+
+			</div>
+
+
+			<div class="container-fluid fourthView" style=" padding: 0; margin: 0; margin-top: 80px; margin-bottom: 200px;" >
+				<div class="container-fluid">
+					<h2 style="color: #58006E; text-align: center; "> Khalti Fund Transfer </h2>
+					<div class="row justify-content-center" style="margin-top: 40px;">
+						<div style="height: 2px; width: 10%; background-color: #FFB752;">
+							
+						</div>	  			
+		  			</div>
+
+		  			<p style="text-align: center; color: #000; margin-top: 20px;"> Make your payments even more convenient. Now relish instant fund transfers through Khalti Wallet. </p>
+				</div>
+
+	  			<div class="container" style="margin-top: 80px;">
+	  				<div class="row justify-content-center">
+	  					<div class="col-sm-2" style="text-align: center;" >
+	  						<img src="images/11.png" class="img-responsive">
+	  						<p style=" color: #58006E; margin-top: 10px;">BANK TO WALLET</p>
+	  						<p style="color: #000; text-align: center;">
+	  							Load funds into Khalti via e-banking service from our partner banks
+	  						</p>
+	  					</div>
+	  					<div class="col-sm-2" style="text-align: center;">
+	  						<img src="images/12.png" class="img-responsive">
+	  						<p style=" color: #58006E; margin-top: 10px;">WALLET TO WALLET</p>
+	  						<p style="color: #000; text-align: center;">
+								Send or request funds from your Khalti friends	  						
+							</p>
+	  					</div>
+	  					<div class="col-sm-2" style="text-align: center;">
+	  						<img src="images/13.png" class="img-responsive">
+	  						<p style=" color: #58006E; margin-top: 10px;">WALLET TO BANK</p>
+	  						<p style="color: #000; text-align: center;">
+								Transfer Khalti funds to your bank accounts	
+							</p>
+	  					</div>
+	  					<div class="col-sm-2" style="text-align: center;">
+	  						<img src="images/14.png" class="img-responsive">
+	  						<p style=" color: #58006E; margin-top: 10px;">KIOSKS TO WALLET</p>
+	  						<p style="color: #000; text-align: center;"> 
+							  Load funds to Khalti from Kiosk Machines (Recharge Machines)	
+	  						</p>
+	  					</div>	  						  						  						
+	  				</div>
+	  			</div>
+			</div>
+
+
+
+			<div class="container-fluid fifthView" style=" padding: 0; margin: 0; margin-top: 80px; margin-bottom: 200px;" >
+				<div class="container-fluid">
+					<h2 style="color: #58006E; text-align: center; "> Service Associates </h2>
+					<div class="row justify-content-center" style="margin-top: 40px;">
+						<div style="height: 2px; width: 10%; background-color: #FFB752;">
+							
+						</div>	  			
+		  			</div>
+
+		  			<p style="text-align: center; color: #000; margin-top: 20px;"> Swift payment facilities for the following merchants and service providers. 
+		  			</p>
+				</div>
+
+				<div class="container" style="width: 80%;">
+					<div class="default-ticker" style="color: #000;">
+
+  					  <div style="padding: 20px;">
+
+					  	<img src="images/dish.png" style="height: 150px; width: 150px;">
+					  </div>
+					  
+
+					  <div style="padding: 20px;">
+					  	<img src="images/budhha.png" style="height: 150px; width: 150px; ">
+					  </div>
+
+					  <div style="padding: 20px;">
+					  	<img src="images/shree.jpg" style="height: 150px; width: 150px;">
+					  </div>
+
+					  <div style="padding: 20px;">
+					  	<img src="images/sim.png" style="height: 150px; width: 150px;">
+					  </div>
+
+					  <div style="padding: 20px;">
+					  	<img src="images/sparrowsms.png" style="height: 150px; width: 150px;">
+					  </div>
+
+					  <div style="padding: 20px;">
+					  	<img src="images/subisu.png" style="height: 150px; width: 150px;">
+					  </div>
+
+					  <div style="padding: 20px;">
+					  	<img src="images/telecom.png" style="height: 150px; width: 150px;">
+					  </div>
+
+					  <div style="padding: 20px;">
+					  	<img src="images/yeti.png" style="height: 150px; width: 150px;">
+					  </div>					  
+					</div>
+
+					<div style="text-align: center; margin-top: 50px;">
+						<button class="btn btn-primary" style="background: #00C5C0;" >VIEW ALL</button>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="container-fluid sixthView" style=" padding: 0; margin: 0; margin-top: 80px; margin-bottom: 200px;" >
+				<div class="container-fluid">
+					<h2 style="color: #58006E; text-align: center; "> Partner Banks </h2>
+					<div class="row justify-content-center" style="margin-top: 40px;">
+						<div style="height: 2px; width: 10%; background-color: #FFB752;">
+							
+						</div>	  			
+		  			</div>
+				</div>
+
+				<div class="container" style="width: 80%;">
+					<div class="default-ticker" style="color: #000; margin-top: 40px;">
+
+  					  <div >
+					  	<img src="images/oom.gif" style="height: 50px;">
+					  </div>
+					  
+
+  					  <div >
+					  	<img src="images/purnimabikasbank.gif" style="height: 50px;"  >
+					  </div>
+
+  					  <div >
+					  	<img src="images/reliancefinance.gif" style="height: 50px;" >
+					  </div>
+
+  					  <div >
+					  	<img src="images/shangriladevbank.gif" style="height: 50px;" >
+					  </div>
+
+  					  <div >
+					  	<img src="images/srijanafinance.gif" style="height: 50px;" >
+					  </div>
+
+  					  <div >
+					  	<img src="images/bok.gif" style="height: 50px;" >
+					  </div>
+
+  					  <div >
+					  	<img src="images/mach.gif"  style="height: 50px;">
+					  </div>
+  					
+  					  <div >
+					  	<img src="images/manjushreefinance.gif" style="height: 50px;" >
+					  </div>
+
+  					  <div >
+					  	<img src="images/nibl.gif" style="height: 50px;" >
+					  </div>
+				</div>
+
+			</div>
+	</div>
+
+	<div class="container-fluid" style="margin-bottom: 40px; background: #FBFBFB;  height: 50vh;">
+		<div class="row justify-content-center" style="height: 100%;">
+			<div class="col-sm-3 align-self-center" style="background: #FFF; color: #58006E; ">
+				<h4>
+					READY TO GET STARTED? 
+				</h4>
+			</div>
+
+			<div class="col-sm-2">
+				
+			</div>		
+
+		
+
+			<div class="col-sm-3 align-self-center">
+				<button class="btn btn-primary" style="background: #00C5C0;">SIGN UP FOR FREE</button> 
+			</div>
 		</div>
 	</div>
 
+	<div class="container-fluid" style="margin-bottom: 40px; background: #313131; padding-bottom: 0; margin-bottom: 0; height: 90vh;">
+		<div class="row" style="margin-top: 80px;">
+			<div class="col-sm-3" style="text-align: center;">
+				<p>Company</p>
+			</div>
 
+			<div class="col-sm-3">
+			
+			</div>
 
+			<div class="col-sm-3">
+			
+			</div>
 
+			<div class="col-sm-3">
+			
+			</div>			
+		</div>
+	</div>	
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
+	
 
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js" ></script>
+<script type="text/javascript" src="js/new.js" ></script>
+<script type="text/javascript" src="js/ticker.min.js" ></script>
+
+
 </body>
 </html>
