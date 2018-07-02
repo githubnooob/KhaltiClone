@@ -163,3 +163,42 @@ legend
 	margin-top: 640px;
 }
 
+.colLast
+{
+	margin-top: 80px;
+}
+
+.lastViewName
+{
+	list-style-type: none; 
+	margin-top: 20px; 
+	color: #313131;
+}
+
+.listItem
+{
+	margin-top: 15px;
+}
+
+.listItem2
+{
+	margin-top: 4px;
+
+}
+
+.separatorLast
+{
+	margin-left: 30px;
+	height: 200px;
+	width: 3px;
+	background: #FFF;
+	margin-top: 95px;
+}
+
+.smallcircle
+{
+	border-radius: 50%;
+	width: 20px;
+	background: #FFF;
+	height: 20px;
+}
